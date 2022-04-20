@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .coffee-header{
+    position: fixed;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    height: 18%;
+    width: 100%;
+    background-color: rgb(124, 120, 120);
+    z-index: 100;
+  }
+  
+  .logo-text{
+    display: block;
+    font-family: "Helevetica Neue";
+    font-weight: bold;
+    color: white;
+  }
+  .coffee-nav{
+    float:right;
+    height: 80%;
+  }
+  .get{
+    height: 40%;
+    border: 2px;
+    width: 100%;
+    float: right;
+    margin-right: 60%;
+    text-shadow: 30px;
+    background-color: black;
+    color: aliceblue;
+  }
+  .card1{
+    width: 20%;
+    padding: 1.5%;
+    height:220px;
+    margin-top: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 8px;
+    font-style: italic;
+    border: 2px solid black; 
+    border-radius: 25px; 
+    margin-left: 3px;
+    background-color: black;
+    color: aliceblue;
+  }
+  .avatar1{
+    border-radius: 50%;
+  }
